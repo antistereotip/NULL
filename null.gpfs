@@ -1,0 +1,11 @@
+//Null
+X = RealDistribution('platform1', [-20, 60])
+Y = RealDistribution('platform2', 1.5)
+f(x) = 3*x/20 + 5
+xvals = [X.get_random_element() for _ in range(100)]
+data = [(x, f(x) + Y.get_random_element()) for x in xvals]
+m, b = var('m b')
+g(x) = m*x + b
+g(x) = g(x).subs(find_fit(data, g, solution_dict=True))
+p = list_plot(data) + plot(g, (x, -20, 60), color='red')
+p.save('linear_regression.svg')
