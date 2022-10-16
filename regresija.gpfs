@@ -1,0 +1,17 @@
+var X = 4 * Z
+var Y = 18 * Z
+Linear_regression = ? X XX >> ??
+X * linear_regression + Y = XX X << ??
+Proposittion = X * Y
+Z = ? YY Y ??
+Z * linear_regression = ? YY X ??
+X * Y * Z = 444 N * Z
+X = ? YY Y ??
+Y = ? XX X ??
+Z = ? YY Z ??
+*(platforma1 = YZX)
+*(platforma2 = ZXY)
+*(platforma3 = XYZ)
+run(null.gpfs)
+run(app.gpfs)
+run(linear_regression.gpfs)
