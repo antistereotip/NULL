@@ -1,0 +1,55 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, 
+nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0; 
+padding: 0; 
+border: 0; 
+font-size: 100%; 
+font: inherit; 
+vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+body{
+background-image: url("back.png"); 
+margin: 0 auto; 
+width: 100%; 
+font-family: Consolas, monaco, monospace; 
+-webkit-font-smoothing: antialiased; 
+-webkit-text-size-adjust: 100%;
+color: white;
+}
+
+.holder {width: 100%; float: left;}
+.logotip {width: 70px; height: 70px; float: left; padding-bottom: 1%;}
+.listaj {list-style-type: none; width: 98%; padding: 1%; margin-top: 1%; margin-bottom: 1%;}
+.listaj li {display: inline; padding-right: 1%;}
+.holder h1 {font-size: 1.3em; width: 50%; float: right; text-align: right; padding: 1%; color: orangered;}
+.holder h1 span {font-size: 0.7em; color: yellow;}
+
+.holder form {width: 100%; float: left;}
+header {width: 98%; padding: 1%; float: left; margin-bottom: 1%;opacity:0.7;
+filter:alpha(opacity=300); /* For IE8 and earlier */
+background-color: black;}
+
+article {
+width: 98%; padding: 1%; opacity:0.7; float: left; filter:alpha(opacity=300); /* For IE8 and earlier */ background-color: black;
+}
+article a {color: orange;}
+article a:hover {color: #17f118;}
+article b {color: yellow;}
+article h2 {color: lightblue; font-size: 1.2em; width: 100%; float: left; padding-bottom: 1%;}
+article p {width: 100%; float: left; padding-top: 1%; padding-bottom: 1%;}
+article code {width: 98%; padding: 1%; float: left; background: black; color: #17f118; 
+text-shadow: 2px 5px 5px #000000; -o-border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+border-radius: 5px; border: 1px solid white;}
+article ul {margin: 0; width: 100%; float: left; padding: 0;}
+article ul li {display: inline; padding: 0.5%;}
+article ul li a {color: lightgreen;}
+article ul li a:hover {color: orange;}
+footer {width: 98%; padding: 1%; float: left; margin-top: 1%; opacity:0.7;
+filter:alpha(opacity=300); /* For IE8 and earlier */
+background-color: black;}
+

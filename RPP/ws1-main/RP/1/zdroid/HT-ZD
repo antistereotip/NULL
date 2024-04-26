@@ -1,0 +1,45 @@
+[Ponedeljak - 4. februar 2013]
+------------------------------
+ht: Odradjena danas animacija svake stranice iz lib koja se loaduje ... nisam hteo sve da animiram da ne gubimo na brzini ....
+ht: #ex7 i #ex8 su "fast implement" animacije za sad ... idemo dalje ...
+zd: Ok, razumeo sam
+***
+
+[Utorak - 5. februar 2013]
+--------------------------
+zd: Našao sam ko je SpaceBack, to je neki sa LMS foruma, pa video da mi postojimo.
+ht: SpaceBack-a sam ja pozvao na Ubuntu forumu, sa nalogom ch... :)
+ht: Na forum sam ubacio pgsql CLI osnove i mysql CLI osnove ... ali tek sam ih zapoceo, nemam vremena danas da dovrsim 
+ht: ... nastavice se, msm postovi na forumu ;)
+ht: Poradi malo na automatizaciji nekih procesa, tipa blog.php kao strukturu postavis na github a onda git clonom korisnici povuku
+ht: ... sintaksu - primer: git clone https://github.com/hightech007/ng1np/blob/master/lib/blog.php ...
+ht: ako napravimo "cms" da bude lagan i jednostavan, sigurno ce ga i drugi koristiti, za sada moramo se sluziti pomagalima ...
+ht: ... dok ne napravimo backend za ws1-ng1np ... :)
+zd: ok :))))
+ht: ;)
+***
+
+[Sreda - 6. februar 2013]
+-------------------------
+zd: Sad će LiBRE! sastanak...
+ht: Mučan mi je sastanak ... :)
+***
+
+[Četvrtak - 7. februar 2013]
+----------------------------
+***
+
+[Petak - 8. februar 2013]
+-------------------------
+ht: ?q=ng1np - pogledaj
+***
+
+[Četvrtak - 21. februar 2013]
+zd: 1. mesto sam na takmičenju iz biologije danas - 65/70 poena :D
+***
+
+[Četvrtak - 7. mart]
+--------------------
+zd: gotov je prvi deo gita
+zd: sad je i drugi
+***

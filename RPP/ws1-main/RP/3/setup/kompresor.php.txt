@@ -1,0 +1,15 @@
+<?php
+require_once("setup/kompresor.php"); 
+$cssmin = new CSSMin();
+// $files = array("setup/css/stil.css", "setup/css/query.css");
+$files = array("setup/css/stil.css", "RP/2/css/ext.css", "RP/2/css/query.css");
+$cssmin->addFiles($files);
+
+// $cssmin->addFile("setup/css/stil.css");
+// $cssmin->addFile("setup/css/stil2.css");
+$cssmin->setOriginalCSS();
+$cssmin->compressCSS();
+// $this->printOriginalCSS(true);
+$cssmin->printCompressedCSS();
+exit;
+?>

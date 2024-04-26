@@ -1,0 +1,96 @@
+.a{font: 100%/1 "Arial Unicode MS",FreeSerif,OpenSymbol,"DejaVu Sans",sans-serif;}
+.simple{border:0 !important;float:left;display:block;margin-right:20px;}
+.autor{color:lightgreen;font-size:1.1em;letter-spacing: 0.1em;}
+.error {color:orangered;font-size:90%;padding-bottom:2%;}
+.error strong{color:red;}
+.succ strong{color:#17f118;}
+.succ{color:lightgreen;font-size:90%;padding-bottom:2%;}
+
+/* trenutni - navigacija */
+.normall a:hover {color:orange;border-top:0.5em solid orange;}
+.current a {padding:0.6em;color:#17f118;border-top:0.5em solid #17f118;}
+.normall a {padding:0.6em;color:#727272;border-top:0.5em solid #828282;}
+
+.adr h1, org h1, .rank h1, .social h1 {font-size:17px;color:white;}
+.adr, org, .rank {}
+
+
+.kontakt {height:auto;margin-bottom:0;}
+article p.kontakt {margin-left:20px;}
+#z3d { /* Z~3D text - best for h1 * font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+ font-size: 10em;margin:0;font-family: 'Glegoo', serif;
+ text-shadow: 0 7px 2px #414141,
+ 	0 7px 0 #515151,
+ 	0 7px 0 #414141,
+  	0 7px 0 #515151,
+  	0 7px 0 #414141,
+   	0 7px 0 rgba(0, 0, 0, .1),
+ 	0 0 7px rgba(0, 0, 0, .1),
+ 	0 0 7px rgba(0, 0, 0, .3),
+    0 0 7px rgba(0, 0, 0, .2),
+    0 0 7px rgba(0, 0, 0, .25),
+    0 0 7px rgba(0, 0, 0, .2),
+    0 0 7px rgba(0, 0, 0, .15);
+}
+.h3d { /* font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+margin:0;font-size:1.5em;
+font-family: 'Glegoo', serif;transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+}
+
+.h3d:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+}
+
+.h3dr { /* font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+margin:0;font-size:1.5em;
+font-family: 'Glegoo', serif;transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+}
+
+.h3dr:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(6deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(6deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(6deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(6deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(6deg) scale(1) skew(1deg) translate(10px);
+}
+
+
+
+.animacija {
+
+-webkit-animation: cssAnimation 1s 1 ease;
+-moz-animation: cssAnimation 1s 1 ease;
+-o-animation: cssAnimation 1s 1 ease;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}

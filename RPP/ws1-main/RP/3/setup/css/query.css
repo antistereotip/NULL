@@ -1,0 +1,103 @@
+@media screen and (max-width: 740px) 	{
+	pre {
+    white-space: pre;           /* CSS 2.0 */
+    white-space: pre-wrap;      /* CSS 2.1 */
+    white-space: pre-line;      /* CSS 3.0 */
+    white-space: -pre-wrap;     /* Opera 4-6 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap;  /* HP Printers */
+    word-wrap: break-word;      /* IE 5+ */
+}
+	body { font-size: 10px; width: 96%; padding: 2%; font-size: 14px;}
+	h1 {width: 100%; float: left; font-size: 13px;} 
+	#logo {width: 70px; height: 70px;}
+	p {font-size: 12px;}
+	article
+	{
+  	width: 96%; padding: 1.5%;
+  	height: auto;
+  	background-color: black;
+  	border: 1px solid black;
+	opacity:0.7;
+	filter:alpha(opacity=300); /* For IE8 and earlier */
+	}
+	.inp {width: 70%;}
+	footer {
+	background-color: black;
+  	border: 1px solid black;
+	opacity:0.7;
+	filter:alpha(opacity=300);
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	}
+	footer figure {text-align: center;}
+	footer figure img {width: 40px; height: 40px;}
+	footer p {font-size: 10px;} #f {width: 98%; padding: 1%; float: left; text-align: left;}
+	.button, button, input[type="submit"], input[type="reset"], input[type="button"] {font-size: 12px;}
+}
+
+@media screen and (max-width: 480px) {
+	h1 {display: none;} #logo {width: 50px; height: 50px;}
+	p {font-size: 11px;}
+	article
+	{
+  	width: 96%; padding: 1.5%;
+  	height: auto;
+  	background-color: black;
+  	border: 1px solid black;
+	opacity:0.9;
+	filter:alpha(opacity=300); /* For IE8 and earlier */
+	}
+	article ul li a{
+	display: block;}
+	.inp {width: 100%;}
+	footer {
+	background-color: black;
+  	border: 1px solid black;
+	opacity:0.7;
+	filter:alpha(opacity=300);
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	}
+	footer figure {}
+	footer figure img {width: 35px; height: 35px;}
+	footer p {font-size: 10px;} #f {display: none;}
+	.button, button, input[type="submit"], input[type="reset"], input[type="button"] {font-size: 13px; margin-top: 2%; padding: 2%;}
+	b {font-size: 12px;}
+}
+
+
+@media screen and (max-width: 360px) {
+	h1 {display: none;} #logo {width: 40px; height: 40px;}
+	p {font-size: 10px;}
+	article
+	{
+  	width: 96%; padding: 2%;
+  	height: auto;
+  	background-color: black;
+  	border: 1px solid black;
+	opacity:0.9;
+	filter:alpha(opacity=300); /* For IE8 and earlier */
+	}
+	.inp {width: 100%;}
+	footer {
+	background-color: black;
+  	border: 1px solid black;
+	opacity:0.7;
+	filter:alpha(opacity=300);
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	}
+	footer figure {}
+	footer figure img {width: 30px; height: 30px;}
+	footer p {font-size: 10px;} #f {display: none;}
+	.button, button, input[type="submit"], input[type="reset"], input[type="button"] { margin-top: 2%; padding: 2%;}
+	b {font-size: 12px;}
+}

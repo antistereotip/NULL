@@ -1,0 +1,26 @@
+
+
+#ex7 { width: 100%; border-bottom: 1px solid #414141;  border-top: 1px solid #414141;  background: #111; height: auto; line-height: 15px; color: transparent; font-size: 30px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; float: left;  font-weight: 300;  -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; } #ex7 p { background: #111; }
+#ex7:hover { line-height: 100px; color: #575858;}   
+#ex7 img{ float: left; margin: 10px; }
+
+#ex8 {
+
+-webkit-animation: cssAnimation 1s 1 ease;
+-moz-animation: cssAnimation 1s 1 ease;
+-o-animation: cssAnimation 1s 1 ease;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+
+

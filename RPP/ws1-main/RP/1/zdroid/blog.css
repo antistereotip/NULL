@@ -1,0 +1,5 @@
+.blog {width: 96%; padding: 2%; float: left; background: #414141; margin-left: 1px; margin-top: 10px;}
+.blog h4 {width: 100%; padding-left: 2%; color: lightblue;}
+.blog p {width: 100%; float: left; padding: 0;}
+.blog pre {width: 98%; padding: 1%; float: left; padding: 0;}
+.blog marquee {width: 98%; padding: 1%; float: left; padding: 0; color: #17f118;}

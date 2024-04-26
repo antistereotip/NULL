@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+<link>
+  <title>početna</title>
+  <url>home.php</url>
+</link>
+<link>
+  <title>forum</title>
+  <url>forum</url>
+</link>
+<link>
+  <title>kontakt</title>
+  <url>#</url>
+</link>
+<link>
+  <title>xcache</title>
+  <url>#</url>
+</link>
+<link>
+  <title>retro-port</title>
+  <url>RP/2</url>
+</link>
+<link>
+  <title>engine-up</title>
+  <url>?up=ng1np</url>
+</link>
+</pages>

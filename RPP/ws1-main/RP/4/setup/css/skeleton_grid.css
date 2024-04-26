@@ -1,0 +1,114 @@
+/* ----------------------960-grid-----------------
+================================================== */
+
+.container {position: relative; width: 940px; margin: 0 auto; padding: 0;  height:100%;}
+
+.container .column,
+.container .columns {float: left; display: inline; margin-left: 10px; margin-right: 10px;  background-image: url('tiny_grid.png'); /* background: #DCDCDC; */ }
+.row {margin-bottom: 20px;}
+
+/* -------------------osnovni-grid----------------
+================================================== */
+.container .one.column,
+.container .one.columns {width: 40px;}
+
+.container .sixteen.columns {width: 940px; }
+.container .sixteen.columns a {color: #717171; text-decoration: underline; }
+.container .sixteen.columns p {padding:20px;padding-top:5px;}
+.container .sixteen.columns.powered {width: 920px; padding: 10px; background: white;}
+.container .sixteen.columns.powered img {padding: 5px; float: left;}
+.container .one-third.column {width: 280px;margin-bottom:15px;}
+.container .two-thirds.column {width: 620px;}
+
+.container .one-third.column img {padding-top:5px; padding-bottom:5px;}
+.container .one-third.column p {width: 98%; padding: 1%; float: left;}
+.container .one-third.column h4 {width: 98%; padding: 1%; float: left; color: #414141; margin-top: 10px;}
+.container .two-thirds.column h4 {width: 98%; padding: 1%; float: left; color: #414141; margin-top: 10px;}
+.container .two-thirds.column img {margin: 8px 11px 0px 19px; }
+.container .two-thirds.column p a {padding: 0; padding-bottom: 10px; margin:0;}
+/* ------------------ofseti-------------------------
+==================================================== */
+.container .offset-by-one {padding-left: 60px;}
+
+/* -----------tablet-"Portrait"-------------------
+================================================== */
+
+/* ------------------za-768px--------------------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container {width: 768px;}
+.container .column,
+.container .columns {margin-left: 10px; margin-right: 10px;}
+.container .sixteen.columns.powered {display:none;}
+
+.container .one.column,.container .one.columns {width: 28px;}
+.container .sixteen.columns {width: 748px;}
+.container .sixteen.columns {width: 748px;}
+
+.container .one-third.column {width: 236px;}
+.container .two-thirds.column {width: 492px;}
+
+#wlogo {display:none;}
+
+
+
+/* ------------------ofseti----------------------
+================================================= */
+.container .offset-by-one {padding-left: 48px;}
+}
+
+/* -----------mobilni-"Portrait"------------------
+================================================== */
+
+/* ------------------za-320px--------------------- */
+@media only screen and (max-width: 767px) {
+.container .sixteen.columns.powered {display:none;}
+.container {width: 94%; padding: 2%; margin: 0 auto;font-size:60%;}
+.container .column,
+.container .columns {margin-left: 0px; margin-right: 1%;}
+.container .sixteen.columns {width: 98%; padding:1%;}
+.container .one-third.column {width: 98%; padding:1%;}
+.container .two-thirds.column {width: 98%; padding:1%;}
+form {width:98%;padding:1%;text-align:center;}
+#wlogo {display:none;}
+}
+
+
+
+/* ----------------mobilni-"landscape"------------
+================================================== */
+
+/* ------------------za-480px--------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container .sixteen.columns.powered {display:none;}
+}
+
+/* ------------------počisti-haos-----------------
+================================================== */
+
+/* ---------------bezbedan-"clear"---------------- */
+.container:after {content: "\0020"; display: block; height: 0; clear: both; visibility: hidden;}
+
+/* --------------koristite-clearfix-klasu-na-roditelju-da-se-počiste-ugnježdene-kolone,
+ili-držači-celih-redova-i-kolona-primer: <div class="row"> --------------------------*/
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+content: '\0020';
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0;}
+.row:after,
+.clearfix:after {clear: both;}
+
+/* ------------koristiti-i-u-brejk-tagu: <br class="clear" /> --za-clear--------------- */
+.clear {
+clear: both;
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0;
+}

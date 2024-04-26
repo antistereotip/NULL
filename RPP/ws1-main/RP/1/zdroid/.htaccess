@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "zdroid"
+AuthUserFile "/home/webserve/.htpasswds/public_html/zdroid/passwd"
+require valid-user

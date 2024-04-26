@@ -1,0 +1,64 @@
+.grid { position: relative; width: 800px; margin: 0 auto; padding: 0; margin-top: 10px;}
+.grid .kol {float: left; display: inline;}
+.grid .cetiri.kol {width: 200px; float: left; text-align: left; opacity:0.7;  filter:alpha(opacity=300); background-color: #111; }
+.grid .pet.kol {width: 250px;}
+.grid .sest.kol {width: 299px;}
+.grid .sedam.kol {width: 350px; }
+.grid .osam.kol {width: 400px; }
+.grid .devet.kol {width: 450px;}
+.grid .deset.kol {width: 500px;}
+.grid .jedanest.kol {width: 550px;}
+.grid .dvanest.kol {width: 600px; float: left; padding-bottom: 3%;
+opacity:0.7;  filter:alpha(opacity=300); background-color: #111; border-top: 1px solid #414141;}
+.grid .trinest.kol {width: 650px;}
+.grid .cetrnest.kol {width: 700px;}
+.grid .petnest.kol {width: 750px; }
+.grid .sesnest.kol {width: 800px; }
+.grid .sedamnest.kol {width: 850px; }
+.grid .osamnest.kol {width: 900px; }
+.grid .devetnest.kol {width: 950px; }
+.grid .dvadeset.kol {width: 1000px; }
+
+.grid .cetiri.kol nav {height: auto; float: right; color: white;  text-align: left; width: 100%; text-align: center;}
+.grid .cetiri.kol nav ul {list-style-type: none;}
+.grid .cetiri.kol nav ul li { display: block; border-top: 1px solid #414141; width: 100%; float: left; }
+.grid .cetiri.kol nav ul li a {width: 96%; padding: 2%; float: left; background: #212121; text-decoration: none; color: #17f118;}
+.grid .cetiri.kol nav ul li a:hover {background: black; color: orange;}
+
+.grid .sest.kol ul {list-style-type: none; padding: 1%; margin: 2%;}
+.grid .sest.kol ul li {padding: 1%;}
+
+.grid .dvanest.kol p {width: 98%;  padding: 1%;  float: left; color: white; font-size: 13px; background: #212121; }
+.grid .dvanest.kol b {color: yellow; font-size: 14px; text-shadow: 0.2em 0.2em 0.05em #000;}
+.grid .dvanest.kol em {color: #33CCFF; text-shadow: 0.2em 0.2em 0.05em #000;}
+.grid .dvanest.kol span {color: #FF3333; text-shadow: 0.1em 0.1em 0.05em #000; font-size: 15px;}
+
+
+.grid .dvanest.kol h2 { width: 98%;  padding: 1%;  float: left; color: #FF6600; text-align: center; font-size: 1.2em; 
+background: #212121; text-shadow: 0.2em 0.2em 0.05em #000; border-bottom: 1px solid #111; border-top: 1px solid #111; }
+
+
+.grid .dvanest.kol h3 {width: 98%;  padding: 1%;  float: left; color: #0066FF; text-align: center; font-size: 1.1em; 
+text-shadow: 0.2em 0.2em 0.05em #000; background: #313131; border-bottom: 1px solid #111; }
+
+.grid .dvanest.kol ul {list-style-type: none; padding: 1%; margin-bottom: 2%;}
+.grid .dvanest.kol ul li {padding: 1%;}
+
+.grid .dvanest.kol code {width: 98%; padding: 1%; border-top: 1px solid #17f118;  float: left; background: black; 
+color: #17f118; margin-bottom: 1%; font-size: 11px; }
+
+.grid .dvanest.kol time {color: #ff9900;}
+
+.grid .dvanest.kol i {width: 180px; height: auto; padding-bottom: 2px; text-align: right; float: right;}
+.grid .dvanest.kol marquee {background: #111; width: 100%; float: left; padding-bottom: 2px; padding-top: 2px;
+ margin-top: 1px; margin-bottom: 1px;  color: white; font-size: 13px; -moz-box-shadow: 0px 0px 7px #2cdb32;
+-webkit-box-shadow: 0px 0px 7px #2cdb32; box-shadow: 0px 0px 7px #2cdb32;}
+
+.grid .dvanest.kol a { text-decoration: none; color: #17f118; text-shadow: 0.2em 0.2em 0.05em #000; font-size: 15px;}
+.grid .dvanest.kol a:hover {color: orange; }
+
+
+
+.grid .dvanest.kol #strip {width: 320px; height: 200px;}
+
+.grid .dvanest.kol #zpop {background: #313131; padding-top: 2%; padding-bottom: 2%;}

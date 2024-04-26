@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, 
+nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0; 
+padding: 0; 
+border: 0; 
+font-size: 100%; 
+font: inherit; 
+vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+body {
+background-image: url("back.jpg"); 
+margin: 0 auto; 
+width: 80%; 
+font-family: Consolas, monaco, monospace; 
+font-size: 100%;  
+text-align: center; 
+margin-top: 1.5%;
+-webkit-font-smoothing: antialiased; 
+-webkit-text-size-adjust: 100%;
+}
+
+.holder {width: 100%; padding: 0; float: left;}
+
+header {
+width: 100%;
+height: auto; 
+float: left; }
+
+h1 {
+width: 98%;
+padding: 1%;
+font-size: 130%; 
+text-align: center; 
+float: left;
+margin-bottom: 1%; margin-top: 1%; 
+color: palegoldenrod; 
+text-shadow: 2px 5px 5px #000000;}
+
+h2 {
+width: 98%; 
+padding: 1%;
+float: left;
+font-size: 120%; 
+text-align: center;  
+color: palegoldenrod; 
+text-shadow:2px 5px 5px #000000;}
+
+h3 {
+width: 98%; 
+padding: 1%;
+float: left;
+font-size: 110%; 
+text-align: center;  
+color: palegoldenrod; 
+text-shadow:2px 5px 5px #000000;
+margin-top: 1%;}
+
+a {
+text-decoration: none; 
+color: orangered;}
+
+a:hover {
+color: #17f118;
+}
+
+iframe {
+width: 98%; 
+height: 300px;
+padding: 1%; 
+margin: 0 auto; 
+border: 2px solid orangered; 
+-o-box-shadow: 0px 0px 15px #888;
+-moz-box-shadow: 0px 0px 15px #888;
+-webkit-box-shadow: 0px 0px 15px #888;
+box-shadow: 0px 0px 15px #888;
+-o-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;}
+
+b {
+text-shadow: 0.2em 0.2em 0.05em #000; 
+font-size: 14px; color: yellow;}
+
+.serveri {
+width: 98%; 
+padding: 1%; 
+height: auto; 
+float: left; 
+text-align: left;
+margin-top: 1%;
+clear: both;}
+
+.serveri code {
+width: 98%; 
+padding: 1%; 
+float: left;
+background: black; 
+color: #17f118;
+font-size: 11px;}
+
+.serveri p {
+width: 98%; 
+padding: 1%; 
+float: left; 
+color: white; 
+text-shadow: 2px 5px 5px #000000;
+font-size: 13px;}
+
+article {
+width: 98%; padding: 1%;
+float: left;
+-o-border-radius: 5px;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border-radius: 5px; 
+margin-top: 1%;
+clear: both;
+}
+
+article code {
+width: 97%; 
+padding: 1%; 
+float: left; 
+background: black; 
+color: #17f118;
+text-shadow: 2px 5px 5px #000000;
+-o-border-radius: 5px;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border-radius: 5px;
+border: 1px solid white;}
+
+article p {
+width: 98;
+padding: 1%; 
+float: left; 
+color: white; 
+text-shadow: 2px 5px 5px #000000;}
+
+article ul {
+width: 100%; 
+float: left; 
+list-style-type: none; 
+margin-top: 2%; 
+text-align: center;
+color: palegoldenrod;
+}
+
+article ul li {
+display: inline; }
+
+
+
+#gnu {width: 100px; height: 100px; clear: both; float: left;}
+
+img {
+width: 150px; 
+height: 100px; 
+padding: 1%;}
+
+#logo {
+width: 100px; 
+height: 100px;
+margin: 0;
+padding: 0;
+}
+
+footer {
+width: 99%; 
+padding: 0.5%; 
+float: left; 
+margin-top: 1%;
+border-top: 1px solid palegoldenrod; 
+color: palegoldenrod;
+text-shadow: 2px 5px 15px black;
+margin-top: 2%;}
+
+
+
+footer img {
+width: 40px; height: 40px;float: left;
+}
+figure {}
+
+footer p {font-size: 13px;}
+
+#f {padding: 0.5%; text-align: right;}
+
+form {
+width: 98%; 
+padding: 1%; 
+float: left;}
+
+.inp {
+width: 40%; 
+padding: 0.7%; 
+background: #111;
+border: 1px solid palegoldenrod;
+-o-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color: palegoldenrod;
+display: inline-block;}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+background: #111;
+border: 1px solid palegoldenrod;
+-o-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color: palegoldenrod;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+padding: 0.7%;
+margin-bottom: 15px;
+line-height: normal;
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+color: #17f118;
+border: 1px solid #17f118;
+}
+
+/* ispravka za mozilu */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+border: 0;
+padding: 0;
+}

@@ -1,0 +1,53 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, 
+nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; 
+font-size: 100%; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+body {background-image: url("back.jpg"); margin: 0 auto; width: 800px; font-family: Consolas, monaco, monospace; 
+font-size: 100%; text-align: left; margin-top: 1%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;}
+
+pre {}
+
+.holder {width: 800px; padding: 0; float: left;}
+
+header {width: 100%; height: auto; float: left; margin-bottom: 10px;}
+
+article { height: auto; float: left;}
+
+
+#dugme {float: right; width: 76px; height: 76px;  border-left: 1px solid #414141; border-top: 1px solid #414141; border-bottom: 1px solid #414141;
+opacity:0.7;  filter:alpha(opacity=300); background-color: #212121; float: left;}
+
+#dugme:hover {opacity:0.7;  filter:alpha(opacity=300); background-color: #313131; }
+
+footer {width: 100%; float: left; color: palegoldenrod; text-shadow: 2px 5px 15px black; text-align: left; margin-top: 4%; 
+border-top: 1px solid #414141; opacity:0.7;  filter:alpha(opacity=300); background-color: #212121; }
+
+footer p {font-size: 13px; width: 98%; padding: 1%;}
+
+.hightech {width: 96%; padding: 2%; float: left; background: #212121;}
+
+.hightech img {-moz-box-shadow: 0px 0px 15px #17f118; 
+-webkit-box-shadow: 0px 0px 15px #17f118;
+box-shadow: 0px 0px 15px #17f118;
+border:none 1px #000000;
+-moz-border-radius: 20px;
+-webkit-border-radius:20px;
+-o-border-radius:20px;
+border-radius: 20px;
+}
+
+.hightech img:hover {-moz-box-shadow: 0px 0px 20px orange;
+-webkit-box-shadow: 0px 0px 20px orange;
+box-shadow: 0px 0px 20px orange;}
+
+.blog { width: 100%; float: left; border-top: 1px solid #313131; margin-top:1%;}
+.blog h3 {width: 100%; float: left; padding: 0;}
+.blog h4 {width: 98%; padding: 1%; float: left;  margin-top: 3px; margin-bottom: 3px; color: lightblue;}
+.blog marquee {width: 100%; float: left; padding: 0; color: #17f118;}
+
+

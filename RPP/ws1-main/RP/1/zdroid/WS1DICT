@@ -1,0 +1,36 @@
+[A] WS1DICT
+-----------
+
+Webserveri (WS1) rečnik... :)
+
+Mali rečnik znakova:
+[!] - upozorenje, napomena, nešto važno
+[#] - komentar, ne odrađuje se, samo se čita
+[ ] - neodrađen zadatak
+[×], [x] - odrađen zadatak
+["], [“], [„] - citat
+[A] - rečnik
+[@] - link
+[?] - upit
+[M] - mail
+[G] - Google
+[=] - jednako
+[0] - binarno
+[3] - trinarno
+[/] - direktorijum
+[-] - datoteka
+[$] - shell, CLI, terminal
+[%] - Unix shell
+[~] - SSH
+[>], [<] - kod
+
+Hvala na čitanju :)
+ _________            _     _ 
+|__  /  _ \ _ __ ___ (_) __| |
+  / /| | | | '__/ _ \| |/ _` |
+ / /_| |_| | | | (_) | | (_| |
+/____|____/|_|  \___/|_|\__,_|
+
+[#] update (ht): 
+[#] [?q] - upit
+[#] zd: [?] - upit ;)

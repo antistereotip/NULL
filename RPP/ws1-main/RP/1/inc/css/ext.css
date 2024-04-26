@@ -1,0 +1,187 @@
+.a{font: 100%/1 "Arial Unicode MS",FreeSerif,OpenSymbol,"DejaVu Sans",sans-serif;}
+.simple{border:0 !important;float:left;display:block;margin-right:20px;}
+.autor{color:lightgreen;font-size:1.1em;letter-spacing: 0.1em;}
+.error {color:orangered;font-size:90%;padding-bottom:2%;}
+.error strong{color:red;}
+.succ strong{color:#17f118;}
+.succ{color:lightgreen;font-size:90%;padding-bottom:2%;}
+
+/* trenutni - navigacija */
+.normall a:hover {color:orange;border-top:0.5em solid orange;}
+.current a {padding:0.6em;color:#17f118;border-top:0.5em solid #17f118;}
+.normall a {padding:0.6em;color:#727272;border-top:0.5em solid #828282;}
+
+p.clear
+{
+clear:both;
+}
+.up {height: auto; padding-top: 1%; padding-bottom: 2%;} #up {padding-left:20px;}
+.adr h1, .org h1, .rank h1, .social h1 {font-size:16px;color:white;}
+.adr p, .org p, .rank p {font-size:14px;}
+
+.reklame {width:97%;padding:1%;margin-top:2%;margin-bottom:2%;float:left;
+-moz-box-shadow:inset 0 0 30px black;-webkit-box-shadow:inset 0 0 30px black;box-shadow:inset 0 0 30px black;
+-moz-border-radius: 15px;-webkit-border-radius:15px;border-radius:15px;}
+
+.kontakt {height:auto;margin-bottom:1%;}
+
+.ws1rank {height:100%;float:left;padding:2%;width:95%;margin-bottom:1%;}
+
+.ws1rank ul {list-style-type:none;}
+
+article p.kontakt {margin-left:20px;}
+
+#dugme {float: right; width: 86px; height: 86px;  border-left: 1px solid #414141; border-top: 1px solid #414141; border-bottom: 1px solid #414141;
+opacity:0.7;  filter:alpha(opacity=300); background-color: #212121; float: left;}
+
+#dugme:hover {opacity:0.7;  filter:alpha(opacity=300); background-color: #313131; }
+
+
+.z3d { /* Z~3D text - best for h1 */ 
+ font-size: 35px;margin:0;
+ text-shadow: 0 5px 2px #313131,
+ 	0 4px 1px #313131,
+ 	0 4px 1px #212121,
+  	0 5px 2px #212121,
+  	0 6px 2px #212121,
+   	0 6px 2px rgba(0, 0, 0, .1),
+ 	0 0 7px rgba(0, 0, 0, .1),
+ 	0 2px 5px rgba(0, 0, 0, .3),
+   	0 4px 6px rgba(0, 0, 0, .2),
+  	0 6px 12px rgba(0, 0, 0, .25),
+   	0 10px 12px rgba(0, 0, 0, .2),
+   	0 20px 24px rgba(0, 0, 0, .15);
+}
+
+
+.h3d { /* font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+margin:0;font-size:1.7em;font-family: 'Faster One', cursive;
+transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+}
+
+.h3d:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(-6deg) scale(1) skew(1deg) translate(10px);
+}
+
+.h3dr { /* font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+margin:0;font-size:1.5em;font-family: 'Glegoo', serif;
+transform: rotate(0deg) scale(0.97) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.97) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.97) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.97) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.97) skew(1deg) translate(0px);
+}
+
+.h3dr:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(2deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(2deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(2deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(2deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(2deg) scale(1) skew(1deg) translate(10px);
+}
+
+.h3dreklame { /* font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+margin:0;font-size:1.7em;font-family: 'Faster One', cursive;
+transform: rotate(0deg) scale(0.87) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.87) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.87) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.87) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.87) skew(0deg) translate(0px);
+}
+
+.h3dreklame:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(-720deg) scale(1.3) skew(0deg) translate(1px);
+-webkit-transform: rotate(-720deg) scale(1.3) skew(0deg) translate(1px);
+-moz-transform: rotate(-720deg) scale(1.3) skew(0deg) translate(1px);
+-o-transform: rotate(-720deg) scale(1.3) skew(0deg) translate(1px);
+-ms-transform: rotate(-720deg) scale(1.3) skew(0deg) translate(1px);
+}
+
+
+.animacija {
+
+-webkit-animation: cssAnimation 1s 1 ease;
+-moz-animation: cssAnimation 1s 1 ease;
+-o-animation: cssAnimation 1s 1 ease;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.100) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(0.999) skew(0deg) translate(0px); }
+}
+
+.dugme { margin-top: 10px; width: 86px; height: 86px; float: left; overflow: hidden; 
+position: relative; text-align: center; cursor: default;}
+
+.dugme .maska,.dugme .sadrzaj {width: 86px; height: 86px; position: absolute; overflow: hidden; top: 0; left: 0;}
+
+.dugme img {display: block; position: relative; width: 86px; height: 86px;}
+
+.dugme h2 {text-transform: uppercase; color: #fff;  text-align: center; position: relative;
+font-size: 11px; padding-top: 5px; background: rgba(0, 0, 0, 0.8); margin-top: 10px;}
+
+.dugme h2:hover {color: yellow;}
+
+.dugme a.info {font-size: 11px; display: inline-block; text-decoration: none; background: #000;
+color: #17f118; -webkit-box-shadow: 0 0 1px #000; -moz-box-shadow: 0 0 1px #000; box-shadow: 0 0 1px #000;}
+
+.dugme a.info: hover {-webkit-box-shadow: 0 0 5px #000; -moz-box-shadow: 0 0 5px #000; box-shadow: 0 0 5px #000; }
+
+.dugme-iko img {-webkit-transition: all 0.4s ease-in-out 0.5s; -moz-transition: all 0.4s ease-in-out 0.5s;
+-o-transition: all 0.4s ease-in-out 0.5s; -ms-transition: all 0.4s ease-in-out 0.5s; transition: all 0.4s ease-in-out 0.5s;}
+
+.dugme-iko .maska {background-color: rgba(5,5,5,0.5); -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0); opacity: 0; -webkit-transition: all 0.3s ease-in 0.4s; -moz-transition: all 0.3s ease-in 0.4s;
+-o-transition: all 0.3s ease-in 0.4s; -ms-transition: all 0.3s ease-in 0.4s; transition: all 0.3s ease-in 0.4s;}
+
+.dugme-iko h2 {-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;
+background: transparent; -webkit-transform: scale(10); -moz-transform: scale(10); -o-transform: scale(10); -ms-transform: scale(10);
+transform: scale(10); -webkit-transition: all 0.3s ease-in-out 0.1s; -moz-transition: all 0.3s ease-in-out 0.1s;
+-o-transition: all 0.3s ease-in-out 0.1s; -ms-transition: all 0.3s ease-in-out 0.1s; transition: all 0.3s ease-in-out 0.1s;}
+
+.dugme-iko a.info {-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;
+-webkit-transform: translateY(100px); -moz-transform: translateY(100px); -o-transform: translateY(100px); -ms-transform: translateY(100px);
+transform: translateY(100px); -webkit-transition: all 0.3s ease-in-out 0.1s; -moz-transition: all 0.3s ease-in-out 0.1s;
+-o-transition: all 0.3s ease-in-out 0.1s; -ms-transition: all 0.3s ease-in-out 0.1s; transition: all 0.3s ease-in-out 0.1s;}
+
+.dugme-iko:hover .maska {-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=200); opacity: 1;
+-webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s; -ms-transition-delay: 0s; transition-delay: 0s;}
+
+.dugme-iko:hover img {-webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s;
+-ms-transition-delay: 0s; transition-delay: 0s;}
+
+.dugme-iko:hover h2 {-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=200); opacity: 1;
+-webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -ms-transform: scale(1); transform: scale(1);
+-webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; -o-transition-delay: 0.1s; -ms-transition-delay: 0.1s; transition-delay: 0.1s;}
+
+.dugme-iko:hover a.info {-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=200); opacity: 1;
+-webkit-transform: translateY(0px); -moz-transform: translateY(0px); -o-transform: translateY(0px); -ms-transform: translateY(0px);
+transform: translateY(0px); -webkit-transition-delay: 0.3s; -moz-transition-delay: 0.3s; -o-transition-delay: 0.3s;
+-ms-transition-delay: 0.3s; transition-delay: 0.3s;}
