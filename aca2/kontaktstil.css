@@ -1,0 +1,112 @@
+.bg-light {
+    background-color: #fff !important;
+	border: 1px solid #dee2e6 !important;
+}
+
+.phone-link {
+	border-radius: 25px;
+	background-color: lightblue;
+	color: #ffffff;
+	padding: 15px 25px;
+}
+
+.navbar-nav {
+	margin-right: 40px;
+}
+
+.navbar-nav .nav-item {
+	padding: 25px;
+}
+
+.dropdown.language {
+	position: absolute; 
+	right: 200px; 
+	width: auto;
+	top: 35px;
+}
+	
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 3rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.phone-link {
+    border-radius: 5px;
+    background-color: #b7aeff;
+    color: #420a0a;
+    padding: 15px 25px;
+}
+
+.phone-link a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.m {padding-top: 0.5%; padding-bottom: 0.5%; border: none; border-bottom: 1px solid #d5d5d5; background-color: #d5d5d5; color: #555;}
+	body > nav {background-color: #dbdbdb!important;}
+	
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+	margin-top: 3%;
+    background-color: #ffffff;
+    border-radius: .3rem;
+}
+
+.footer {
+    border-top: 1px solid #3333;
+    padding-top: 1%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.mt-3, .my-3 {
+    margin-top: 3rem !important;
+}
+
+@media (max-width: 991px) {
+	.dropdown.language {
+		right: 100px;
+		position: absolute; top: 10px;
+	}
+}
+@media (max-width: 999px) {
+	.phone-link {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	body > nav > div.dropdown.language {
+		padding-top: 2.5%;
+	}
+}
+
+
